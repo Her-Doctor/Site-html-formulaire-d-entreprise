@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8"/>
+		</head>
+		
+		<body>
+				<!--corps de la page-->
+				
+				<h1>Nous Contacter</h1>
+				<link rel="stylesheet" type="text/css" href="styleformulaire.css">
+				<h2>Menu</h2>
+				<ul>
+					<li><a href="@Presentation_entreprise_pg1">Présentation de l'entreprise</a></li>
+					<li><a href="@Partenaire_pg2">Partenaires</a></li>
+					<li><a href="@Presentation_vente_pg3">Présentation des objets</a></li>
+				</ul>
+				<fieldset>
+				<P class="fond"> Si vous souhaitez nous contacter . </P>
+				<form method="GET" action="traitement.php">
+				<label for="nom"></label> : <input type="text" name="nom" id="nom" placeholder="Nom :" size="30" maxlength="20" autofocus/>
+					<br/>
+					<br/>
+				<label for="prenom"></label> : <input type="text" name="prenom" id="prenom" placeholder="Prenom :" size="30" maxlength="20">
+					<br/>
+					<br/>
+				<label for="mail"></label> :  <input type="email" name="mail" id="mail" placeholder="Mail :" required/>
+					<br/>
+					<br/>
+				<label for="telephone"></label> :  <input type="tel" name="telephone" id="telephone" placeholder="Tel :">
+					<br/>
+					<br/>
+					<label for="Pays"></label> <br/>
+					<select name="pays" id="pays">
+					<optgroup label="Pays dans lequel vous résidez">
+					</optgroup>
+					<optgroup label="Europe">
+						<option value="France">France</option>
+						<option value="Allemagne">Allemagne</option>
+					</optgroup>
+					<optgroup label="Autres pays">
+						<option value="Angleterre">Angleterre</option>
+						<option value="Japon">Japon</option>
+						<option value="Bulgarie">Bulgarie</option>
+						<option value="Zigma B">Zigma B</option>
+						<option value="Constellation du centaure">Const. du centaure</option>
+						<option value="Autre">Autre que ceux donnés</option>
+					</optgroup>
+					<br/>	
+						<input type="submit" name="envoyer" value="Envoyer">
+					</fieldset>
+				<footer>
+					<p class="fond">Copyright Robert Pâté - Tout droits pas réservés</p>
+				</footer>
