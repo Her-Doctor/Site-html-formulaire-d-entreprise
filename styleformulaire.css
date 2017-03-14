@@ -20,7 +20,6 @@ h1{
 	border: 3px inset;
 	border-color: darkblue;
 	border-radius: 10px;
-	order-radius: 10px 15px 20px 5px;
 	background-color:black;
 	width: 50%;
 	margin-left: auto;
@@ -28,7 +27,12 @@ h1{
 	color:darkred;
 }
 h2{
-
-	color:blue;
-
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	border: 3px inset;
+	border-color: darkblue;
+	border-radius: 10px;
+	background-color:black;
+	width: 15%;
+	color:darkred;
 }
